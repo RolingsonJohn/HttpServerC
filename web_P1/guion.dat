@@ -1,0 +1,18 @@
+Requisitos:
+
+1-> Escribir el código de la gestión de red a bajo nivel (apertura y cierre de sockets, conexiones)
+    1.1-> Probarlo de forma independiente.
+2-> Creación de un servidor iterativo
+    2.1-> Una vez funcione correctamente el servidor, decidir que tipo de concurrencia aplicar y dar razonamiento en la memoria.
+3-> Funcionalidades:
+4-> Pruebas:
+5-> Documentación
+
+
+Orden de implementación
+1-> Implementar un cliente servidor TCP para probar envío y recepción de datos
+2-> Una vez se haya implementado el servidor iterativo, modificarlo a uno concurrente sin ninguna funcionalidad HTTP.
+3-> Al comprobar que funciona correctamente el servidor, volverlo a convertir en iterativo, para implementar las funcionalidades de recepción, parseo y respuesta de peticiones HTTP.
+4-> Ya implementadas las funcionalidades, retornar la concurrencia.
+
+Hablar en la memoria de que se utilizamos AF_INET siempre, en lugar de (PF_INET y AF_INET)
